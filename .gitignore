@@ -1,0 +1,22 @@
+# 敏感信息防手滑（绝对禁止入库）
+*.env
+.env
+*secret*
+*token*
+*password*
+*credential*
+*apikey*
+*.key
+*.pem
+
+# 系统杂项
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+
+# 备份产物（FireHouse 只放记录，不放备份包）
+*.zip
+*.tar
+*.gz
+*.7z
